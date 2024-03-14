@@ -1,0 +1,15 @@
+{
+  "companyInfo": {
+    "name": "이지은",
+    "description": "이지은",
+    "image": "이지은"
+  },
+  "todos": [
+    {
+      "id": "1",
+      "title": "테스트입니다.",
+      "isDone": true,
+      "contents": "내용입니다."
+    }
+  ]
+}
