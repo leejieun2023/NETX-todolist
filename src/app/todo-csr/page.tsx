@@ -5,9 +5,9 @@ import React from "react";
 const TodosCsrPage = () => {
 
   return (
-    <>
+    <main>
       <p>csr page</p>
-    </>
+    </main>
   );
 };
 
