@@ -11,10 +11,10 @@ const TodosSsrPage = async () => {
 
     return (
         <>
-            <p>ssr page</p>
-            <Link href={"/report"}>할일정보통계보러가기</Link>
+          <div>SSR PAGE</div>
+          <Link href={"/report"}>할일정보통계보러가기</Link>
         </>
-    );
-};
+      );
+    };
 
 export default TodosSsrPage;
