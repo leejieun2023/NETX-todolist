@@ -8,12 +8,12 @@ const AboutPage = async () => {
 
   return (
     <main className="flex justify-center">
-      <div className="flex justify-evenly items-center gap-44 mt-10 min-w-max">
+      <div className="flex justify-evenly items-center">
         <Image
           src={company.image}
           alt="company image"
-          width={200}
-          height={300}
+          width={300}
+          height={400}
           className="-z-20"
         />
       </div>

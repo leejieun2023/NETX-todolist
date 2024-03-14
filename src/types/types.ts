@@ -8,5 +8,7 @@ export type TodoType = {
   id: string;
   title: string;
   isDone: boolean;
-  contents: string;
+  content: string;
 }
+
+export type newTodo = Omit<TodoType, "id">;
