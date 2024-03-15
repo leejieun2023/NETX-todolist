@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { newTodo } from "@/types/types";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-const Form = () => {
+function Form() {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
 
